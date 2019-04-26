@@ -1,0 +1,100 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-04-26T09:30:13.691Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10345269900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 6487665600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestMeStepDef.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 8924355700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegisterStepDef.init()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "RegisterScenario",
+        "description": "",
+        "id": "demowebshop-feature;registerscenario",
+        "after": [
+          {
+            "result": {
+              "duration": 260281300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4744542200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "url of the demowebshop",
+            "match": {
+              "location": "RegisterStepDef.url_of_the_demowebshop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1704413500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters the data for registration",
+            "match": {
+              "location": "RegisterStepDef.user_enters_the_data_for_registration()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1121736700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is registered successfully",
+            "match": {
+              "location": "RegisterStepDef.user_is_registered_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "DemoWebShop Feature",
+    "description": "",
+    "id": "demowebshop-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/skeleton/demowebshop.feature",
+    "tags": []
+  }
+]

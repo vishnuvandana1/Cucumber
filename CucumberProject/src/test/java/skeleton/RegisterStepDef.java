@@ -17,7 +17,7 @@ import page.RegisterPage;
 
 public class RegisterStepDef {
 	WebDriver driver;
-//@Before
+@Before
 	public void init(){
 	driver=DriverUtility.getDriver("chrome");
 PageFactory.initElements(driver, RegisterPage.class);
@@ -35,7 +35,7 @@ PageFactory.initElements(driver, RegisterPage.class);
 	    RegisterPage.gender.click();
 	    RegisterPage.FirstName.sendKeys("Vandana");
 	    RegisterPage.LastName.sendKeys("kethini");
-	    RegisterPage.Email.sendKeys("ask123498004566@gmail.com");
+	    RegisterPage.Email.sendKeys("ask54646@gmail.com");
 	    RegisterPage.Password.sendKeys("abc123");
 	    RegisterPage.ConfirmPassword.sendKeys("abc123");
 	    RegisterPage.Register.click();
